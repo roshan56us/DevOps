@@ -45,4 +45,4 @@ jobs:
           echo "The following are default environment variables:" 
           echo $GITHUB_ACTOR 
           echo $GITHUB_JOB 
-          echo $GITHUB_REF"
+          echo $GITHUB_REF
