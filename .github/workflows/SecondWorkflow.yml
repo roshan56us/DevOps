@@ -37,7 +37,7 @@ jobs:
     - name: environment variable
       env:
         STEP_VAR: " This is declared at the step level"
-        run: | 
+      run: | 
           echo $WORKFLOW_VAR 
           echo $JOB_VAR 
           echo $STEP_VAR 
